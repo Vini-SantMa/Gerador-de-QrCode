@@ -1,0 +1,49 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    background-color:  #0d1117;    
+    text-align: center;             
+    margin-top: 100px;
+}
+h1{
+    color: whitesmoke;
+}
+
+p{
+    color: white;
+}
+.caixa-principal {
+    background-color: #161b22;
+    width: 350px;
+    margin: 0 auto;            
+    padding: 25px;                 
+    border: 2px solid #136417;         
+    border-radius: 15px;      
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #11f018;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #136417;
+}
+
+.erro {
+    color: red;
+    margin-top: 10px;
+}
